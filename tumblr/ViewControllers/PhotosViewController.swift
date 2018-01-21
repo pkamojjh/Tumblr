@@ -7,12 +7,13 @@
 //
 
 import UIKit
-   import AlamofireImage
+import AlamofireImage
 
 class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
-     var posts: [[String: Any]] = []
+    var posts: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
     @IBOutlet weak var tableView: UITableView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,7 +83,18 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         return cell
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! ViewController
+       //  let cell = sender as! UITableViewCell
+        //let indexPath = tableView.indexPath(for: cell)!
+        vc.photoImage = (sender!  as! PhotoCell).imgView.image
+        
+        
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+
 
    // override func didReceiveMemoryWarning() {
      //   super.didReceiveMemoryWarning()

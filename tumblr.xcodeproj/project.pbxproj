@@ -17,6 +17,7 @@
 		D169E9C92009038C00719A10 /* tumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169E9C82009038C00719A10 /* tumblrTests.swift */; };
 		D169E9D42009038C00719A10 /* tumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169E9D32009038C00719A10 /* tumblrUITests.swift */; };
 		D169E9E22009052300719A10 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D169E9E12009052300719A10 /* PhotosViewController.swift */; };
+		D19FC7BB200FFECD009189F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19FC7BA200FFECD009189F7 /* ViewController.swift */; };
 		D1C5018E200ABEE20047FB8E /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C5018D200ABEE20047FB8E /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		D169E9D32009038C00719A10 /* tumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumblrUITests.swift; sourceTree = "<group>"; };
 		D169E9D52009038C00719A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D169E9E12009052300719A10 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		D19FC7BA200FFECD009189F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1C5018D200ABEE20047FB8E /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		F5297B8A6BA9F01E1010085D /* Pods_tumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 			children = (
 				D169E9E12009052300719A10 /* PhotosViewController.swift */,
 				D1C5018D200ABEE20047FB8E /* PhotoCell.swift */,
+				D19FC7BA200FFECD009189F7 /* ViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 			files = (
 				D169E9B42009038C00719A10 /* AppDelegate.swift in Sources */,
 				D1C5018E200ABEE20047FB8E /* PhotoCell.swift in Sources */,
+				D19FC7BB200FFECD009189F7 /* ViewController.swift in Sources */,
 				D169E9E22009052300719A10 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
